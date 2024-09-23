@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner-usuario{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.nome-usuario{
+    text-align: center;
+    font-weight: 900;
+}
+
+.usuario{
+    background-color: #2D2F31;
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto;
+    width: 120px;
+    height: 120px;
+}
+.foto-usuario{
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#form-corpo{
+    padding: 24px 16px;
+    border: rgb(185, 185, 185) solid 1px;
+}
+
+.uma-secao{
+    max-width: 700px;
+    padding: 24px 0 0 0;
+    margin: 24px 0 0 0;
+    border-top: solid 1px rgb(105, 7, 7);
+
+}
+
+fieldset{
+    border: none;
+}
+.alert-text{
+    font-size: 0.7rem;
+    color: #6a6b6d;
+    margin-bottom: 10px;
+}
+
+select.input-padrao{
+    background-color: white;
+    font-size: medium;
+    margin: 0;
+}
+
+#textarea{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.textarea{
+    width: 100%;
+    border: 1px solid;
+    border-top: none;
+}
+
+.button-edit{
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.uma-secao fieldset .input-padrao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-sociais{
+    display: flex;
+}
+
+.conteiner-sociais .input-padrao::placeholder{
+    font-size: 12px;
+}
+
+.padrao-legend{
+    padding-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #2d2f31;
+}
+
+.input-padrao{
+    height: 48px;
+    width: 100%;
+    padding: 0px 16px;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.input-posteriores{
+    display: flex;
+    align-items: center;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 20px 0px 15px;
+    background-color: #F7F9FA;
+    border-right: none;
+}
+
+.input-padrao::placeholder{
+    font-size: medium;
+}
+.div-final{
+    display: flex;
+    justify-content: left;
+    margin-top: 32px;
+    height: 48px;
+    padding: 0;
+}
+.div-final button {
+    height: 100%;
+    border: none;
+    background-color: #2D2F31;
+}
+.botao-padrao{
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+
+/* FOOTER */
+
+.rodape{
+    background-color: #1C1D1F;
+    color: white;
+    padding: 20px;
+}
+h2{
+    white-space: nowrap;
+    font-size: 20px;
+}
+p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.botao-final{
+    border: 1px solid white;
+}
+footer button{
+    border: white 1px solid;
+    background-color: transparent;
+    height: 48px;
+    margin-top: 8px;
+}
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+.secao1{
+    background-color: #1C1D1F;
+    padding: 20px 24px 20px 24px;
+}
+.secao1 p{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.final-div{
+    background-color: #1C1D1F;
+    padding: 0 24px;
+}
+.botao-idioma{
+    background-color: #1C1D1F;
+}
+#mini-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mini-conteiner{
+    margin: 12px 24px 12px 0;
+}
+.botao-idioma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 16px 0 16px;
+    height: 2.3rem;
+}
+.botao-idioma span{
+    margin-left: 5px;
+}
+#idioma{
+    padding: 24px 0px;
+}
+.botao-idioma svg{
+    height: 20px;
+}
+li{
+    height: 30px;
+    list-style: none;
+}
+nav ul a{
+    display: block;
+    font-size: 14px;
+    color: white;
+    padding: 4px 0px;
+}
+.logo-and-copyright{
+    padding: 16px 0;
+}
+.logo-footer{
+    padding: 16px 0;
+}
+.logo-footer svg{
+    height: 31px;
+}
+.copyright{
+    color: white;
+    padding: 0 0 16px;
+    font-size: 12px;
+}
+ul a:hover li{
+    background-color:#6A6F73;
+    color: white
+}

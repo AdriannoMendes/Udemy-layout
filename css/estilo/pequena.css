@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+.conteiner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgb(194, 192, 192);
+}
+.config-iguais{
+    padding: 0px 8px;
+    background-color: transparent;
+    height: 100%;
+    border: none;
+}
+.centralizador-items{
+    display: flex;
+    align-items: center;
+}
+.preencher{
+    width: 40px;
+    height: 100%;
+}
+.logo{
+    height: 30px;
+    
+}
+.icones-cabecalho{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.svg{
+    width: 24px;
+    height: 24px;
+}
+.header-div{
+    display: none;
+}
+
+/* FINAL DO CABECALHO TELA SMARTPHONE */
+/* -------------------------------------------------------- */
+
+.conteiner-body{
+    padding: 24px 16px 48px;
+}
+
+.menu-opcoes li{
+    padding: 4px 16px;
+    list-style: none; 
+}
+
+ul.menu-opcoes{
+    padding: 24px 0px;
+}
+
+
+.cabecalho{
+    border: 1px solid rgb(185, 185, 185);
+    text-align: center;
+    padding: 16px 0;
+}
+.input-padrao{
+    height: 48px;
+    width: 100%;
+    padding: 0px 16px;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.input-posteriores{
+    display: flex;
+    align-items: center;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 20px 0px 15px;
+    background-color: #F7F9FA;
+    border-right: none;
+}
+
+
+.espacamento-entre-campos{
+    margin: 24px auto;
+    padding: 24px 0 0 0;
+    border-top: solid 1px rgb(185, 185, 185);
+}
+
+.uma-secao{
+    max-width: 700px;
+    padding: 24px 0 0 0;
+    margin: 24px 0 0 0;
+}
+
+
+h1{
+    font-size: 24px;
+    font-weight: 900;
+}
+.cabecalho p{
+    margin-top: 8px;
+}
+
+
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 

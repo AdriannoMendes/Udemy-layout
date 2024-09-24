@@ -1,19 +1,38 @@
 @charset "UTF-8";
 
-
-.conteiner-header{
+#conteiner-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 55px;
     padding: 4px;
-    background-color: white;
+    background-color: blue;
     box-shadow: 0px 4px 8px rgb(194, 192, 192);
 }
-.config-iguais{
-    padding: 0px 8px;
+.menu-hamburguer{
+    order: 0;
+}
+.logo{
+    width: 90px;
+    order: 0;
+    margin: 0 auto;
+}
+.lupa{
+    order: 0;
+}
+button{
     background-color: transparent;
-    height: 100%;
+    border: none;
+}
+.carrinho-de-compra{
+    order: 2;
+}
+.ocultar-elemento{
+    display: none;
+}
+.config-iguais{
+    padding: 0px 12px;
+    background-color: transparent;
     border: none;
 }
 .centralizador-items{
@@ -24,10 +43,7 @@
     width: 40px;
     height: 100%;
 }
-.logo{
-    height: 30px;
-    
-}
+
 .icones-cabecalho{
     display: flex;
     align-items: center;
@@ -42,7 +58,11 @@
     display: none;
 }
 
-/* FINAL DO CABECALHO TELA SMARTPHONE */
+
+
+
+
+/* FINAL DO CABECALHO TELA MOBILE */
 /* -------------------------------------------------------- */
 
 .conteiner-body{
@@ -51,7 +71,8 @@
 
 .menu-opcoes li{
     padding: 4px 16px;
-    list-style: none; 
+    list-style: none;
+    color: red;
 }
 
 ul.menu-opcoes{

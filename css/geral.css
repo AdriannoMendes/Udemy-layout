@@ -115,13 +115,13 @@ select.input-padrao{
     width: 100%;
     padding: 0px 16px;
     border: 1px solid black;
-    margin-bottom: 8px;
+    margin-bottom: 17px;
     margin-top: 16px;
 }
 
 .input-posteriores{
     display: flex;
-    align-items: center;
+    justify-content: center;
     width: auto;
     font-size: 12px;
     text-align: center;
@@ -129,10 +129,17 @@ select.input-padrao{
     background-color: #F7F9FA;
     border-right: none;
 }
+.dentro-input{
+    padding: 0 16px;
+}
 
 .input-padrao::placeholder{
     font-size: medium;
 }
+
+
+
+
 .div-final{
     display: flex;
     justify-content: left;

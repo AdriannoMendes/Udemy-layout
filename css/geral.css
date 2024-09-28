@@ -110,29 +110,31 @@ select.input-padrao{
     color: #2d2f31;
 }
 
-.input-padrao{
+.caixa-digitacao-grande{
+    display: flex;
     height: 48px;
     width: 100%;
-    padding: 0px 16px;
     border: 1px solid black;
     margin-bottom: 17px;
     margin-top: 16px;
+    font-size: 16px;
 }
-
-.input-posteriores{
+.caixa-digitacao-grande{
+    background-color: aquamarine;
+}
+.caixa-texto-estatico{
     display: flex;
-    justify-content: center;
-    width: auto;
-    font-size: 12px;
-    text-align: center;
-    padding: 0px 20px 0px 15px;
-    background-color: #F7F9FA;
-    border-right: none;
-}
-.dentro-input{
+    align-items: center;
     padding: 0 16px;
+    background-color: #F7F9FA;
 }
-
+.caixa-texto-dinamico{
+    width: 100%;
+    padding: 13px 16px;
+    border: none;
+    border-left: 1px solid black;
+    font-size: 16px;
+}
 .input-padrao::placeholder{
     font-size: medium;
 }

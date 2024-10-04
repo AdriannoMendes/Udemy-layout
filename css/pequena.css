@@ -103,6 +103,12 @@ button{
     padding: 0 16px;
 }
 
+.caixa-texto-estatico{
+    font-size: 12px;
+}
+.caixa-texto-dinamico{
+    font-size: 12px;
+}
 .menu-opcoes{
     padding: 20px 0;
 }

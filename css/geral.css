@@ -119,9 +119,11 @@ select.input-padrao{
     margin-top: 16px;
     font-size: 16px;
 }
+.espacamento-interno-input{
+    padding: 0 16px;
+}
 .caixa-digitacao-grande{
     background-color: transparent;
-    ;
 }
 .caixa-texto-estatico{
     display: flex;
@@ -140,12 +142,10 @@ select.input-padrao{
     font-size: medium;
 }
 
-
-
-
 .div-final{
     display: flex;
     justify-content: left;
+    border: none;
     margin-top: 32px;
     height: 48px;
     padding: 0;
@@ -155,7 +155,7 @@ select.input-padrao{
     border: none;
     background-color: #2D2F31;
 }
-.botao-padrao{
+.botao-salvar{
     padding: 0 20px;
     font-size: 15px;
     font-weight: 900;
@@ -186,6 +186,7 @@ footer button{
     height: 48px;
     margin-top: 8px;
 }
+
 .rodape{
     display: flex;
     flex-wrap: wrap;

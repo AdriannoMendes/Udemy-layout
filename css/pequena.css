@@ -137,7 +137,6 @@ button{
     margin: 24px 0 0 0;
 }
 
-
 h1{
     font-size: 24px;
     font-weight: 900;
@@ -145,8 +144,6 @@ h1{
 .cabecalho p{
     margin-top: 8px;
 }
-
-
 
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
